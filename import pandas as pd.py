@@ -2,8 +2,13 @@
 import pandas as pd
 
 # Load data
+<<<<<<< HEAD
 df = pd.read_csv('client_dataset.csv')
 df.head()
+=======
+file_path = 'Resources/client_dataset.csv'
+df = pd.read_csv(resources/clent_dataset.csv)
+>>>>>>> e43380b21f4ba474f537bd1bef12c916a88025d5
 
 # View the column names in the data
 print("Column Names:", df.columns.tolist())
