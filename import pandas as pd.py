@@ -2,7 +2,7 @@ import pandas as pd
 
 # Load data
 file_path = 'Resources/client_dataset.csv'
-df = pd.read_csv(file_path)
+df = pd.read_csv(resources/clent_dataset.csv)
 
 # View the column names in the data
 print("Column Names:", df.columns.tolist())
