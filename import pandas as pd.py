@@ -1,8 +1,9 @@
+
 import pandas as pd
 
 # Load data
-file_path = 'Resources/client_dataset.csv'
-df = pd.read_csv(file_path)
+df = pd.read_csv('client_dataset.csv')
+df.head()
 
 # View the column names in the data
 print("Column Names:", df.columns.tolist())
